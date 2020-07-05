@@ -11,7 +11,7 @@ body {
     background-color: #084b75;
 }
 header {
-    background: red;
+    background: #084b75;
     display: flex;
     justify-content: space-between;
     align-items: center;
