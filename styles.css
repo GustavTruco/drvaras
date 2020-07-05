@@ -1,0 +1,125 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    display: block;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+body {
+    background-color: #084b75;
+}
+header {
+    background: #084b75;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    top:0;
+
+}
+
+header div{
+    display: flex;
+}
+header div .nombre{
+    text-shadow: 3px 2px black;
+    color: white;
+}
+
+header div div h3 {
+    font-size: 25px;
+    margin-left: 25px;
+    text-align: left;
+    padding-right: 10px;
+    border-right: 2px solid white;
+    font-weight: 500;
+}
+
+header div div h5{
+    padding-top: 5px;
+    font-size: 30;
+    text-align: left;
+    margin-left: 5px;
+    font-weight: 500;
+}
+header ul {
+    display: flex;
+    list-style-type: none;
+    margin-right: 25px;
+}
+header ul li {
+    padding: 5px;
+    margin: 5px ;
+    text-decoration: none;
+}
+header ul #info{
+    display: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    text-shadow: 2px 2px black;
+    font-weight: 500;
+}
+header ul li a:hover{
+    padding: 3px;
+    color: black;
+    border: 0.5px solid whitesmoke;
+    border-radius: 3px;
+    background-color: whitesmoke;
+    text-shadow: 2px 2px #ddd;
+    transition-delay: 0,1s;
+}
+
+
+.slider {
+    height: 400px;
+    background-image: url("img/header.jpg");
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+.slider h1{
+    align-items: left;
+    color: whitesmoke;
+    margin-left: 25%;
+    padding-top:150px;
+    text-shadow: 2px 2px grey;
+
+}
+
+.carrera {
+    padding:100px ;
+    size: auto ;
+    background-color: whitesmoke;
+
+}
+
+.carrera h2 {
+    text-align: left;
+    font-size: 25px;
+    padding-left: 20%;
+}
+.carrera img{
+    float: right;
+    height: 350px;
+    margin: 15px 50px 50px 50px;
+}
+
+.carrera p {
+ text-align:justify;
+ font-size: 15px;
+ margin: 10px ;
+}
+.cirugias table{
+    background-color: whitesmoke;
+    display: flex;
+}
+.clear{
+    display: none;
+}
