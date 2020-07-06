@@ -141,7 +141,7 @@ header ul li a:hover{
 
 
 .carrera {
-    padding:50px 100px ;
+    padding:0px 100px 100px 100px ;
     size: auto ;
     background-color: whitesmoke;
 }
@@ -179,7 +179,7 @@ header ul li a:hover{
 }
 
 .mid-break{
-    height: 50px;
+    height: 75px;
 }
 .clear{
     display: none;
