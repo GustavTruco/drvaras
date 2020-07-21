@@ -12,102 +12,36 @@
 
         <header>
             <div class="logo">
-                    <div class="nombre"><a href="#"><h3>Dr. Gonzalo Varas Marchant</h3> </a></div>
-                    <div class="nombre"><a href="#"><h5> Oftalmólogo <br> Cirujano de Órbita y Oculoplástica</h5> </a></div>
+                    <div class="nombre"><a href="index.html"><h3>Dr. Gonzalo Varas Marchant</h3> </a></div>
+                    <div class="nombre"><a href="index.html"><h5> Oftalmólogo <br> Cirujano de Órbita y Oculoplástica</h5> </a></div>
             </div>
             <ul>
-                <li><a href="#Carrera">Conozca a su Doctor</a></li>
+                <li><a href="index.html">Conozca a su Doctor</a></li>
                 <li class="clear"><a href="#Cirugias">Cirugías</a></li>
                 <li class=><a href="pacientes.html">Información para Pacientes</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="https://www.oftalandes.cl/doctor/doctor-gonzalo-varas-marchant/" target="_blank">Contacto</a></li>
             </ul>
         </header>
 
-        <div class="slideshow-container">
-        
-        <div class="mySlides fade">
-          <img class="slider-photo" src="img/header3.jpg" style="width:100%">
-        </div>
-        
-        <div class="mySlides fade">
-          <img class="slider-photo" src="img/header.jpg" style="width:100%">
-        </div>
-        
-        <div class="mySlides fade">
-          <img class="slider-photo" src="img/header4.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides fade">
-            <img class="slider-photo" src="img/header2.JPG" style="width:100%">
-        </div>
-        
-        </div>
-        <br id="Carrera">
-        
-        <div style="text-align:center" >
-          <span class="dot"></span> 
-          <span class="dot"></span> 
-          <span class="dot"></span> 
-          <span class="dot"></span> 
-        </div>
-        
-        <div class="mid-break" ></div>
-        <div class="carrera">
-            
-            <img src="img/portrait.jpg" alt="Dr. Varas" >
-            <p> El doctor Gonzalo Varas Marchant realizó sus estudios de medicina en la Pontificia Universidad Católica de Chile. Se especializó en oftalmología y subespecializó en oculoplástica y cirugía de órbita en la misma institución. Posteriormente realizó un fellow en la University of British Columbia en Vancouver, Canadá, bajo la mentoría del doctor Peter Dolman. </p>
-            <p> Académico de la Pontifica Universidad Católica de Chile, ha trabajado con alumnos de pre y postgrado y formalizó la estadía de perfeccionamiento en la subespecialidad. Ha participado y dictado conferencias en congresos tanto nacionales como internacionales y publicado trabajos científicos en importantes revistas de la especialidad. </p>
-            <p> Realiza servicio a la comunidad participando activamente en operativos para resolver problemas quirúrgicos en áreas del país con menor acceso a oftalmólogos. </p>
-            <p> Actualmente forma parte de las directivas de la Sociedad Chilena de Oftalmología y de la Sociedad Chilena de Oculoplástica.</p>
-            <div class="mid-break">
-            </div>
-            <h2 id="contacto">Contacto</h2>
-            <p>Reserve su hora al teléfono: <a href="tel:+562 23704600">2 2370 4600</a></p> 
-            <p>No dude en escribir sus consultas al email<a href="mailto:drgvaras@gmail.com ">drgvaras@gmail.com </a> </p> 
-
+        <div class="Newsletter">
+            <h2>Newsletter</h2>
+            <ul class="Noticias">
+                <li ><a href="Luz_azul.html">
+                    <h3>Cuidados de la visión en tiempos de pandemia. Luz azul: ¿mito o realidad?</h3> 
+                    <p>    Uno de los cambios que estamos experimentado es el aumento en el uso de pantallas,
+                         sea esto con fines laborales, educativos, sociales o recreacionales. Adicionalmente el confinamiento en nuestros hogares, menor ventilación de los espacios y uso de calefacción producto del invierno se asocian a la presencia de fatiga visual y molestias oculares...</p>
+                    <h6>20/07/2020</h6>
+                    </a>
+                </li>
+            </ul>
         </div>
 
-        <div class="clear" id="Cirugias">
-            <table border=1>
-                <tr>
-                    <td>Cosa 1</td>
-                    <td>Cosa 2</td>
-                    <td>Cosa 3</td>
-                </tr>
-                <tr>
-                    <td>Cosa 4</td>
-                    <td>Cosa 5</td>
-                    <td>Cosa 6</td>
-                </tr>
-            </table>
+        <div class="Subscribe">
+            <a href="https://drvaras.us10.list-manage.com/subscribe?u=f1367ddb5b49f537a2c98741d&id=167fca2dbf">
+                <h2>Subcribase a nuestro Newsletter</h2>
+            </a>
         </div>
-
-        <footer>
-            <div class="mid-break"></div>
-        </footer>
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script class="clear">
-            AOS.init();
-            var slideIndex = 0;
-            showSlides();
-            
-            function showSlides() {
-              var i;
-              var slides = document.getElementsByClassName("mySlides");
-              var dots = document.getElementsByClassName("dot");
-              for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";  
-              }
-              slideIndex++;
-              if (slideIndex > slides.length) {slideIndex = 1}    
-              for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-              }
-              slides[slideIndex-1].style.display = "block";  
-              dots[slideIndex-1].className += " active";
-              setTimeout(showSlides, 3500); // Change image every 2 seconds
-            }
-            </script>
+       
                
     </body>
 </html>
