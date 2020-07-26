@@ -12,7 +12,7 @@ a {
     color: white;
 }
 body {
-    background-color: whitesmoke;
+    background-color: #dddddd;
 }
 header {
     background: #084b75;
@@ -74,8 +74,22 @@ header ul li a {
     text-shadow: 2px 2px black;
     font-weight: 500;
 }
-header ul li a:hover{
+
+header ul li.boton {
+    background-color:midnightblue;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+header ul li a.link:hover{
     text-decoration-line: underline;
+}
+
+header ul li a.buton:hover{
+    text-decoration-line: none;
+}
+
+header ul li.boton:hover{
+    opacity: 0.9;
 }
 
 .slider-photo{
@@ -87,7 +101,7 @@ header ul li a:hover{
     margin: auto;
     margin-top: 50px;
     position: relative;
-    background-color: whitesmoke;
+    background-color: #dddddd;
   }
   
   /* Caption text */
@@ -143,7 +157,7 @@ header ul li a:hover{
 .carrera {
     padding:0px 100px 100px 100px ;
     size: auto ;
-    background-color: whitesmoke;
+    background-color: #dddddd;
 }
 
 .carrera h2 {
@@ -173,8 +187,9 @@ header ul li a:hover{
     display: inline;
     font-style: italic;
     }
+
 .cirugias table{
-    background-color: whitesmoke;
+    background-color: #dddddd ;
     display: flex;
 }
 
@@ -186,16 +201,20 @@ header ul li a:hover{
 }
 
 
+.Newsletter {
+    width: 95%;
+    margin: auto;
+}
 .Newsletter h2 {
-    padding: 25px 50px;
+    padding: 25px;
     font-size:40px;
     text-decoration: underline;
 }
 
 .Newsletter ul li {
-    margin: 0px 25px;
-    border: 3px dotted #dddddd;
+    border: 3px dotted #084b75;
     padding: 5px;
+    margin: 5px;
     color:black;
 }
 
@@ -218,13 +237,27 @@ header ul li a:hover{
 .Noticia {
     width: 90%;
     margin: auto;
-    text-align: justify;
 }
 
+.foto{
+
+    width: 70%;
+    height: 300px ;
+    margin: 30px auto;
+    text-align: justify;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: left center; 
+}
 .Noticia h2{
-    padding:30px 30px 0 30px;
-    text-align: center;
+    padding:20px 30px 0 30px;
+    text-align:center;
     font-size: 35px;
+}
+.Noticia h6{
+    font-size: 20px;
+    text-align: right;
+    padding: 25px;
 }
 
 .Noticia ul {
@@ -246,6 +279,37 @@ header ul li a:hover{
     font-size: 15px;
     padding: 5px 75px;
 }
+
+
+
+.info {
+    width: 90%;
+    margin: auto;
+}
+
+.info h3{
+    padding:20px 30px 20px 30px;
+    text-align:center;
+    font-size: 35px;
+}
+
+.info h4 {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+.info h4 a{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+.mapa {
+    width: 50%;
+    margin: 50px auto 20px auto;
+}
+
 
 .Subscribe {
     background-color: #084b75;
